@@ -1,0 +1,16 @@
+.jumbotron{
+ text-align:center;
+ width:100%;
+ color:#fb6605;
+ background:linear-gradient(180deg,#c5f08f 0%,#ffffff 100%);
+ }
+.info{margin:20px;padding:10px;}
+.vedio,.paper{width:90%;margin:auto;}
+h3{text-align:center;}
+p{font-size:18px;}
+.footer{
+  width:5%;margin:50px auto;
+  text-align:center;
+  background-color:#fb6605;
+  border-radius:88px;}
+img{width:100%;}
