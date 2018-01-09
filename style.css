@@ -9,8 +9,7 @@
 h3{text-align:center;}
 p{font-size:18px;}
 .footer{
-  width:5%;margin:50px auto;
   text-align:center;
-  background-color:#fb6605;
-  border-radius:88px;}
+  background:linear-gradient(180deg,#ffffff 0%,#c5f08f 100%);
+  }
 img{width:100%;}
