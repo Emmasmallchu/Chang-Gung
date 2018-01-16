@@ -1,15 +1,35 @@
 .jumbotron{
- text-align:center;
- width:100%;
- color:#fb6605;
- background:linear-gradient(180deg,#c5f08f 0%,#ffffff 100%);
- }
-.info{margin:20px;padding:10px;}
-.vedio,.paper{width:90%;margin:auto;}
-h3{text-align:center;}
-p{font-size:18px;}
-.footer{
-  text-align:center;
-  background:linear-gradient(180deg,#ffffff 0%,#c5f08f 100%);
-  }
+ width:100%;height: 282px;
+ background-color: white;}
+.conputer{
+  height:auto;width:100%;
+  position: relative;top:-40px;}
+.mobile{display: none;max-width: 100%;max-height:90%;}
 img{width:100%;}
+
+
+
+
+
+.container{}
+/*內容頁*/
+#contect{}
+.vedio}
+.info{}
+iframe{width:90%;height:320px;margin:auto;}
+/*腳*/
+h1,h4,.footer{
+  text-align:center;
+  }
+
+/*以下手機板*/
+
+@media screen  and (max-width: 767px) {
+  .conputer{display: none;}
+  .mobile{display: block;}
+  iframe{width:100%;}
+}
+
+@media screen  and (min-width: 768px) {
+  
+}
