@@ -1,35 +1,37 @@
-.jumbotron{
- width:100%;height: 282px;
- background-color:#FCEC90;color:#F0A986;}
- 
-.conputer{
-  height:auto;width:100%;
-  position: relative;top:-40px;z-index: 0;}
-.mobile{display: none;max-width: 100%;max-height:90%;
-  position: relative;top:-40px;z-index: 0;}
+
+
 img{width:100%;}
 
-body{background-color: #FCEC90}
+body{background-color: #F596AA}
 
 
 
 .container{}
 /*內容頁*/
+.vedio{position: relative;top:150px;left:150px;}
+.info{position: relative;top:150px;left:50px;}
+h1{color: black;}
+h4{color: #D0104C;margin:0px 0px 45px 0px}
+p{position: relative;left:30px;line-height: 25px;margin:0px 0px 25px 0px}
+a{color:white;}
+a:hover{color:#D0104C;}
 #contect{}
-.vedio}
-.info{}
-iframe{width:90%;height:320px;margin:auto;}
+
+iframe{width:70%;height:420px;margin:auto;}
 /*腳*/
-h1,h4,.footer{
+.footer{
   text-align:center;
   }
 
 /*以下手機板*/
 
 @media screen  and (max-width: 767px) {
-  .conputer{display: none;}
-  .mobile{display: block;}
-  iframe{width:100%;}
+  h1,h4{text-align: center;margin:10px;}
+  h4{font-size: 14px;margin:10px;}
+  p{position: relative;left:0px;text-align:left;margin:10px;}
+  .vedio{width:100%;position: relative;top:0px;left:0px;}
+  .info{position: relative;top:0px;left:0px;}
+  iframe{width:100%;height:300px;}
 }
 
 @media screen  and (min-width: 768px) {
